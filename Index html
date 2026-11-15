@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>OmniAI Studio</title>
+<style>
+body {
+  margin: 0;
+  background: #171717;
+  color: white;
+  font-family: Arial;
+}
+header {
+  padding: 20px;
+  background: #222;
+  font-size: 22px;
+}
+main {
+  max-width: 750px;
+  margin: 40px auto;
+  padding: 20px;
+  text-align: center;
+}
+select, textarea, button {
+  width: 100%;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 10px;
+  border: none;
+}
+button {
+  background: #d97757;
+  color: white;
+  font-weight: bold;
+}
+</style>
+</head>
+<body>
+<header>OmniAI Studio</header>
+<main>
+<h1>Your AI Workspace</h1>
+<p>All your AI models in one place.</p>
+<select>
+<option>Claude</option>
+<option>ChatGPT</option>
+<option>Gemini</option>
+<option>DeepSeek</option>
+<option>Grok</option>
+</select>
+<textarea placeholder="Ask anything..." rows="5"></textarea>
+<button>Send Message</button>
+</main>
+</body>
+</html>
